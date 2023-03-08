@@ -285,11 +285,11 @@
           <!-- PERBAIKI DALAM BENTUK MOBILE -->
           <!-- COBA MAKEK vw -->
           <!-- PERBAIKI JIKA FILTER -->
-          <div class="slick-slider slick-row" id="model">
+          <div class="row masonry-grid" id="model">
             <div
               v-for="model in models"
               :key="model.id"
-              :class="`masonry-item col-lg-12 project hover-trigger ${model.sex}`"
+              :class="`masonry-item  col-lg-4 project hover-trigger ${model.sex}`"
             >
               <div class="project__container">
                 <div class="project__img-holder">
