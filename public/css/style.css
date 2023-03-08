@@ -1379,11 +1379,7 @@ textarea.material__input {
   font-size: 20px;
   line-height: 1;
   opacity: .75;
-  background-color: #ffb31a;
   color: #fff;
-  padding:10px;
-  border-radius: 50%;
-  margin:auto;
 }
 
 .slick-prev {
